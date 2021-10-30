@@ -21,7 +21,7 @@ class Car {
     }
 }
 
-let car = new Car("BMW");
+let car: Car = new Car("BMW"); // need to put a type here of Car
 car.honk(); // BMW is saying: Toooooooooot!
 console.log(car.acceleration); // 0
 car.accelerate(60);

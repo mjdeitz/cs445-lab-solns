@@ -11,5 +11,5 @@ class University {
     }
 }
 
-let miu = new University("MIU", "MSD");
+let miu: University = new University("MIU", "MSD"); // need to put type "University" here as well 
 miu.graduation(2021);
