@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 8 RxJS - Observables</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.js"></script>
+    <script src="employees.js" type="text/javascript"></script>
+    <!-- <script src="employeesMap.js" type="text/javascript"></script> -->
+    <!-- <script src="employeesMapFilter.js" type="text/javascript"></script> -->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Enter number of Employees below:</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <input type="number" id="nums-emps" /><button id="emp-list-btn" type="button"
+                    class="btn btn-primary btn-md ms-3">Get Employee List</button>
+            </div>
+        </div>
+
+        <!-- Insert employees from javascript -->
+        <div id="employees"></div>
+
+
+    </div>
+</body>
+
+</html>
